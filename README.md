@@ -55,4 +55,4 @@
 
 ### Уведомления в Телеграм
 
-
+![telegram_notification](pictures/tg_notification.png)
