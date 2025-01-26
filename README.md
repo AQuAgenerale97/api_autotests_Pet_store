@@ -1,4 +1,4 @@
-# Проект по тестированию API Petstore
+# Проект по тестированию API сервиса Petstore
 
 ><a target="_blank" href="https://petstore.swagger.io/">Swagger Petstore</a>
 > 
@@ -11,7 +11,7 @@
 3. Поиск несуществующего питомца.
 4. Поиск всех питомцев по указанному статусу.
 5. Удаление питомца.
-6. Изменение имени питомца
+6. Изменение имени питомца.
 
 ---
 
@@ -21,10 +21,10 @@
 ---
 
 ### Запуск автотестов осуществляется с использованием Jenkins
-> [Ссылка на сборку в Jenkins](https://jenkins.autotests.cloud/job/zmamedov-qa_guru_Petstore_api_test/)
+> [Ссылка на сборку в Jenkins](https://jenkins.autotests.cloud/job/Slinkov_api_Petstore/)
 
 #### Для запуска автотестов в Jenkins
-1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/zmamedov-qa_guru_Petstore_api_test/)
+1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/Slinkov_api_Petstore/)
 
 ![jenkins job main page](pictures/Jenkins_job_main_page.png)
 
@@ -40,14 +40,14 @@
 
 ### Интеграция с Allure TestOps
 
-> [Job #3989 zmamedov-qa_guru_Petstore_api_test](https://allure.autotests.cloud/project/4223/jobs)
+> [Job #3989 zmamedov-qa_guru_Petstore_api_test](https://allure.autotests.cloud/project/4584/jobs)
 
 ![allure_testops job](pictures/allure_testops_job.png)
 
 ---
 
 ### Интеграция с Jira
-> [Задача в Jira](https://jira.autotests.cloud/browse/HOMEWORK-1234)
+> [Задача в Jira](https://jira.autotests.cloud/browse/HOMEWORK-1389)
  
 ![jira task](pictures/jira_task.png)
 
