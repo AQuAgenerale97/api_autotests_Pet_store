@@ -37,7 +37,7 @@ class TestPet:
 
         with allure.step('Проверка, что API возвращает код статуса 200.'):
             assert updated_pet.status_code == 200
-        with allure.step('Проверка, что имя питомца - "Spike".'):
+        with allure.step('Проверка, что имя питомца - "Potter".'):
             assert updated_pet.json()['name'] == 'Potter'
         validate_response_to_json_schema(json_schema='put_pet.json', response=new_pet)
 
